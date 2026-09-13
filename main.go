@@ -1,7 +1,11 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+	simpleconnection "study/postgres/simple_connection"
+)
 
 func main() {
 	fmt.Println("Start Main!")
+	simpleconnection.CheckConnection()
 }
